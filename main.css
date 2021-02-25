@@ -35,6 +35,9 @@ h5 {
   top: 0;
   left: 0;
 }
+#surprise_button:focus {
+  border: rgb(90, 164, 194);
+}
 #birthday_h1 {
   font-weight: bold;
   font-size: 120px;
