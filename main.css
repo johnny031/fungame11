@@ -1,0 +1,51 @@
+h2 {
+  font-weight: bolder;
+  font-size: 120px;
+}
+h5 {
+  font-size: 50px;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(2, 2, 63);
+}
+.answer_div,
+.trap_div {
+  padding: 10px;
+  border: 10px solid gray;
+}
+.answer_div {
+  background-color: rgb(26, 202, 10);
+  margin: 40px;
+}
+.trap_div {
+  background-color: rgb(184, 7, 7);
+  color: rgb(209, 209, 209);
+  margin: 40px;
+}
+#next_button {
+  font-size: 30px;
+  padding: 7px;
+}
+#surprise_button {
+  background-color: black;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#birthday_h1 {
+  font-weight: bold;
+  font-size: 120px;
+  height: 60vh;
+  margin-top: 30px;
+  padding-top: 70px;
+  color: #fcedd8;
+  background: #d52e3f;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 800;
+  text-shadow: 3px 3px 0px #eb452b, 6px 6px 0px #efa032, 9px 9px 0px #46b59b,
+    12px 12px 0px #017e7f, 15px 15px 0px #052939, 18px 18px 0px #c11a2b,
+    21px 21px 0px #c11a2b, 24px 24px 0px #c11a2b, 27px 27px 0px #c11a2b;
+}
