@@ -8,13 +8,13 @@ $("#next_button").on("click", function(){
         $("#trap_h1").html(words[count][1]);
         count++;
     } else {
-        alert("請點擊繼續");
-        alert("請點擊繼續");
-        alert("若為出題者請繼續...");
-        alert("謝謝你的...");
-        alert("諸多照顧...");
-        alert("我...");
-        alert("只是想說...");
+        // alert("請點擊繼續");
+        // alert("請點擊繼續");
+        // alert("若為出題者請繼續...");
+        // alert("謝謝你的...");
+        // alert("諸多照顧...");
+        // alert("我...");
+        // alert("只是想說...");
         setTimeout(() => {
             $("body").css({"background-color": "pink"});
         }, 800);

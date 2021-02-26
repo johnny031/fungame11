@@ -52,3 +52,34 @@ h5 {
     12px 12px 0px #017e7f, 15px 15px 0px #052939, 18px 18px 0px #c11a2b,
     21px 21px 0px #c11a2b, 24px 24px 0px #c11a2b, 27px 27px 0px #c11a2b;
 }
+#cake {
+  position: absolute;
+  width: 400px;
+  top: 60%;
+  left: 55%;
+}
+@media only screen and (max-width: 570px) {
+  h2 {
+    font-size: 55px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+  #next_button {
+    font-size: 15px;
+  }
+  #birthday_h1 {
+    font-size: 60px;
+    height: 40vh;
+    margin-top: 60px;
+    padding-top: 50px;
+    text-shadow: 2px 2px 0px #eb452b, 4px 4px 0px #efa032, 6px 6px 0px #46b59b,
+      8px 8px 0px #017e7f, 10px 10px 0px #052939, 12px 12px 0px #c11a2b,
+      14px 14px 0px #c11a2b, 16px 16px 0px #c11a2b, 18px 18px 0px #c11a2b;
+  }
+  #cake {
+    width: 270px;
+    top: 65%;
+    left: 35%;
+  }
+}
