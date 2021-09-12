@@ -1,85 +1,59 @@
-h2 {
-  font-weight: bolder;
-  font-size: 120px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-h5 {
-  font-size: 50px;
-}
-.background {
-  width: 100vw;
-  height: 100vh;
+body {
   background-color: rgb(2, 2, 63);
+}
+.container {
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(151, 151, 151);
+  padding: 2.7rem;
+  font-size: 3rem;
+}
+h3 {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
 }
 .answer_div,
 .trap_div {
   padding: 10px;
-  border: 10px solid gray;
+  border: 8px solid rgb(202, 47, 47);
+  background-color: rgb(243, 115, 115);
+  border-radius: 1rem;
+  width: 30rem;
+  max-width: 80%;
+  margin: 2rem auto 2rem auto;
 }
 .answer_div {
-  background-color: rgb(26, 202, 10);
-  margin: 40px;
-}
-.trap_div {
-  background-color: rgb(184, 7, 7);
-  color: rgb(209, 209, 209);
-  margin: 40px;
+  background-color: rgb(85, 228, 72);
+  border: 8px solid rgb(16, 143, 5);
 }
 #next_button {
-  font-size: 30px;
-  padding: 7px;
-}
-#surprise_button {
-  background-color: black;
-  border: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-#surprise_button:focus {
-  border: rgb(90, 164, 194);
-}
-#birthday_h1 {
+  font-size: 1.3rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.3rem;
+  background-color: rgb(236, 75, 0);
+  color: rgb(236, 236, 236);
   font-weight: bold;
-  font-size: 120px;
-  height: 60vh;
-  margin-top: 30px;
-  padding-top: 70px;
-  color: #fcedd8;
-  background: #d52e3f;
-  font-family: "Noto Sans TC", sans-serif;
-  font-weight: 800;
-  text-shadow: 3px 3px 0px #eb452b, 6px 6px 0px #efa032, 9px 9px 0px #46b59b,
-    12px 12px 0px #017e7f, 15px 15px 0px #052939, 18px 18px 0px #c11a2b,
-    21px 21px 0px #c11a2b, 24px 24px 0px #c11a2b, 27px 27px 0px #c11a2b;
+  box-shadow: 3px 3px 2px rgb(121, 41, 4);
+  outline: none;
 }
-#cake {
-  position: absolute;
-  width: 400px;
-  top: 60%;
-  left: 55%;
-}
-@media only screen and (max-width: 570px) {
+
+@media only screen and (min-width: 570px) {
   h2 {
-    font-size: 55px;
+    padding: 3rem;
+    font-size: 4rem;
   }
-  h5 {
-    font-size: 30px;
+  h3 {
+    font-size: 2rem;
   }
   #next_button {
-    font-size: 15px;
-  }
-  #birthday_h1 {
-    font-size: 60px;
-    height: 40vh;
-    margin-top: 60px;
-    padding-top: 50px;
-    text-shadow: 2px 2px 0px #eb452b, 4px 4px 0px #efa032, 6px 6px 0px #46b59b,
-      8px 8px 0px #017e7f, 10px 10px 0px #052939, 12px 12px 0px #c11a2b,
-      14px 14px 0px #c11a2b, 16px 16px 0px #c11a2b, 18px 18px 0px #c11a2b;
-  }
-  #cake {
-    width: 270px;
-    top: 65%;
-    left: 35%;
+    font-size: 1.7rem;
+    padding: 0.8rem 1.7rem;
   }
 }
